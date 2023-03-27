@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form Using Table in HTML</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <h2>Student Registration Form Using Table in HTML</h2>
+
+<table>
+    <table align="center" cellpadding="10">
+    <tr>
+        <td>First Name</td>
+        <td><input type="text"  name="First Name" maxlength="50" placeholder="himani"></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input type="text"  name="Last Name" maxlength="50" placeholder="sharma"></td>
+    </tr>
+    <tr>
+        <td>Email ID</td>
+        <td><input type="text"  name="Email ID" maxlength="50" placeholder="hs2471275@gmail.com"></td>
+    </tr>
+    <tr>
+        <td>Mobile Number</td>
+        <td><input type="text"  name="Mobile Number" maxlength="50" placeholder="8355******"></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" id="male">male <input type="radio" id="female">female </td>
+    </tr>
+    <tr>
+        <td>Address<br/><br/><br/></td>
+        <td><textarea name="address" rows="10" cols="50"></textarea></td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td><input type="text"  name="city" maxlength="50" placeholder="mumbai"</td>
+    </tr>
+    <tr>
+        <td>Pin Code</td>
+        <td><input type="number"  name="pin code" maxlength="50" placeholder="*******"</td>
+    </tr>
+    <tr>
+        <td>State</td>
+        <td><input type="text"  name="state" maxlength="50" placeholder="maharashtra"</td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td><input type="text"  name="country" maxlength="50" placeholder="india"</td>
+    </tr>
+    <tr>
+        <td>Hobbies <br/><br/><br/></td>
+        <td>
+         <input type="checkbox" name="hobbydrawing" value="drawing" />
+         drawing
+         <input type="checkbox" name="hobbysinging" value="singing" />
+         singing
+         <input type="checkbox" name="hobbydancing" value="dancing" />
+         dancing
+         <br/>
+         <input type="checkbox" name="HobbyOther" value="other">
+         Others
+         <input type="text"  name="others" maxlength="50" placeholder="ex-teaching" />
+        </td>
+    </tr>
+    <tr>
+        <td>Qualifications <br/><br/><br/></td>
+        <td>
+        <br/>
+        <input type="checkbox" name="highschool" value="High School" />
+        High School(10th)<br/>
+        <input type="checkbox" name="higherschool" value="Higher School" />
+        Higher School(12th)<br/>
+        <input type="checkbox" name="graducation" value="Graducation" />
+        Graducation(bachelors)<br/>
+        <input type="checkbox" name="postgraducation" value="Post Graducation" />
+        Post Graducation(masters)<br/>
+        <input type="checkbox" name="phd" value="Phd"/>
+        phd
+    </td>
+    </tr>
+    <tr>
+        <td>Courses applied for</td>
+        <td>
+        <input type="radio" name="CourseBCA" value="BCA" />
+        BCA(bachelor of computer application)<br/>
+        <input type="radio" name="CourseBcom" value="Bcom" />
+        Bcom(bachelors of commerce)<br/>
+        <input type="radio" name="CourseBSc" value="BSc" />
+        BSc(Bachelors of science)<br/>
+        <input type="radio" name="CourseBA" value="BA" />
+        BA(bachelors of arts)<br/>
+        <input type="radio" name="CourseMCA" value="MCA" />
+        MCA(masters of computer applications)<br/>
+    </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </tr>
+</table>
+</body>
+</html>
